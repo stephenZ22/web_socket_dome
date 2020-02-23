@@ -1,6 +1,6 @@
 <h1>Chat#chat</h1>
-<!-- TODO
-pre id="output"
-= form_tag "/chat", class: "chat", remote: true
-  input placeholder="hello world" autofocus=true name="text"
--->
+<pre id="output">
+<%= form_tag "/chat", class: "chat", remote: true do %>
+  <%#= input, placeholder="hello world", autofocus=true, name="text" %>
+<% end %>
+</pre>
